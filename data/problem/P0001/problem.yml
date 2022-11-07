@@ -1,0 +1,12 @@
+# The display name of this problem
+name: A + B Problem
+# The unique identifier of this problem, should match the folder name
+id: P0001
+
+testcases:
+  - type: basic
+    match_input: 'aplusb_(\d+).in'
+    with_answer: 'aplusb_$1.ans'
+    time_limit: 500
+    memory_limit: 128
+    per_score: 25
